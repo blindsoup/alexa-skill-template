@@ -1,0 +1,49 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "シンプルクイズ",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "QuizIntent",
+          "slots": [
+            {
+              "name": "answer",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "{answer}",
+            "{answer} 番",
+            "{answer} で",
+            "正解は {answer}",
+            "正解は {answer} 番",
+            "答えは {answer}",
+            "答えは {answer} 番"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "2"
+}
